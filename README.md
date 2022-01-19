@@ -5,6 +5,6 @@ Web Crawler for Senior Welfare Organization Contact Information
 
 將爬到的資訊分別寫入對應欄位（機構名稱	屬性	服務項目	聯絡人	電話	Email	網址	地址）
 
-並存為 csv 檔案（ https://docs.google.com/spreadsheets/d/1LoBWncy_ptCBlfXpRLkJByvz1PgZA8vhcCKBisvv77U/edit?usp=sharing ）
+並存為 csv 檔案並上傳至 google Drive https://docs.google.com/spreadsheets/d/1LoBWncy_ptCBlfXpRLkJByvz1PgZA8vhcCKBisvv77U/edit?usp=sharing
 
 在於線上表單中使用查詢/全部取代功能，過濾多餘的資訊文字
