@@ -92,6 +92,8 @@ with open(output_file_name, 'w', newline='') as csvfile:
             #print(email.text)
 
             web = email.find_next_sibling('h3')
+	
+	    #部分資料網站欄位為空，使用 next sibling 會直接抓到地址，為求存取下的資料一致性使用判斷式協助判別若空白則註記 'none'
             try:
                 web_name = web.find('a')
                 web_url = web_name.get('href')
